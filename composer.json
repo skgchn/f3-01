@@ -1,0 +1,17 @@
+{
+    "name": "skgchn/f3test2",
+    "autoload": {
+        "psr-4": {
+            "Skgchn\\F3test2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sunil Girdhar",
+            "email": "sunilkgirdhar@gmail.com"
+        }
+    ],
+    "require": {
+    	"bcosca/fatfree" : "3.8.0"
+    }
+}

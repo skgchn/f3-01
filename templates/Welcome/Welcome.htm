@@ -1,0 +1,11 @@
+<h1>Hello World!!!</h1>
+<repeat group="{{ @beverages }}" key="{{ @beverage }}" value="{{ @options }}">
+    <div>
+        <p><span><b>{{ @beverage }}</b></span></p>
+        <p>
+        <repeat group="{{ @options }}" value="{{ @option }}">
+            <span>{{ @option }}</span>
+        </repeat>
+        </p>
+    </div>
+</repeat>
